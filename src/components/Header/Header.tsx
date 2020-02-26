@@ -1,23 +1,91 @@
-import * as React from 'react'
-import { Stack } from 'office-ui-fabric-react'
+import * as React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { Button } from "react-bootstrap";
+import { FaGoogle, FaFacebookF, FaWhatsapp } from "react-icons/fa";
+import { MdCall } from "react-icons/md";
+//import { Stack } from "office-ui-fabric-react";
 
 interface IHeaderProps {
-    label: string
+  label: string;
 }
 
 const Header: React.FC<IHeaderProps> = ({ label, children }) => (
+  <div
+    style={{
+      display: "inline-flex",
+      width: "100%",
+      height: "150px",
+      backgroundColor: "#ffffe6"
+    }}
+  >
     <div
-        style={{
-            display: 'inline-flex',
-            width: '100%',
-            height: '150px',
-            backgroundColor: 'red'
-        }}
-    >
-        <div style={{ flex: 1, backgroundColor: 'green' }}>Logo</div>
-        <div style={{ flex: 2, backgroundColor: 'yellow' }}>Message</div>
-        <div style={{ flex: 1, backgroundColor: 'red' }}>Info</div>
-    </div>
-)
+      style={{
+        flex: 1,
 
-export default Header
+        margin: "0 auto",
+        padding: "40px"
+      }}
+    >
+      <img src="IMG_8847.JPG" alt="Logo"></img>
+    </div>
+    <div
+      style={{
+        flex: 2,
+        display: "block",
+
+        textAlign: "center",
+        fontStyle: "italic",
+        color: "#8c201c",
+        margin: "0 auto",
+        position: "relative",
+        fontSize: "22px",
+        padding: "40px"
+      }}
+    >
+      <p>
+        To develop youth with global consciousness and competence.
+        <br></br>To develop professionals with national character.
+      </p>
+    </div>
+    <div
+      style={{
+        flex: 1,
+        padding: "20px",
+        fontSize: "30px",
+        width: "50px",
+        textAlign: "center",
+        textDecoration: "none",
+        color: "white"
+      }}
+    >
+      <div
+        style={{
+          margin: "0 auto",
+          padding: "40px",
+          color: "red",
+          marginBottom: "100px"
+        }}
+      >
+        <a href="#">
+          <FaFacebookF />
+        </a>
+        <a href="#">
+          {" "}
+          <FaGoogle />
+        </a>
+        <a href="#">
+          {" "}
+          <FaWhatsapp />
+        </a>
+        <a href="#">
+          {" "}
+          <MdCall />
+        </a>
+
+        <button className="btn btn-danger">Emergency</button>
+      </div>
+    </div>
+  </div>
+);
+
+export default Header;
