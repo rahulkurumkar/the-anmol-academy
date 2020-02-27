@@ -18,7 +18,7 @@
     background: #3B5998;
     color: white;
   }
-  style={{
+  .style {
     padding: "20px",
     fontSize: "30px",
     width: "50px",
@@ -26,4 +26,4 @@
     textDecoration: "none",
     backgroundColor: "#3B5998",
     color: "white"
-  }}
+  }
