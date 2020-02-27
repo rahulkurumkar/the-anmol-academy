@@ -17,6 +17,7 @@ export default class FooterPage extends Component<Props, State> {
             height: "200px",
             display: "flex"
           }}
+          className="row"
         >
           <div
             style={{
@@ -24,6 +25,7 @@ export default class FooterPage extends Component<Props, State> {
               textAlign: "center",
               marginTop: "10px"
             }}
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
           >
             <h4>ABOUT US </h4>
             <img src="IMG_8847.JPG" alt="Logo"></img>
@@ -42,6 +44,7 @@ export default class FooterPage extends Component<Props, State> {
             style={{
               flex: 1
             }}
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
           >
             <h4
               style={{
@@ -70,6 +73,7 @@ export default class FooterPage extends Component<Props, State> {
             style={{
               flex: 1
             }}
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
           >
             <h4
               style={{
