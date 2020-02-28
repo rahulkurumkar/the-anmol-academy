@@ -1,18 +1,10 @@
 import * as React from "react";
 
-<<<<<<< Updated upstream:src/components/Courses/Courses.tsx
-interface ICoursesProps {
-  course?: string;
-}
-
-export default class Courses extends React.Component<ICoursesProps> {
-=======
 interface ICourseProps {
   course?: string;
 }
 
 export default class Courses extends React.Component<ICourseProps> {
->>>>>>> Stashed changes:src/components/Cources/Courses.tsx
   public render() {
     return (
       <div>
@@ -23,10 +15,7 @@ export default class Courses extends React.Component<ICourseProps> {
             in laying out print, graphic or web designsis dummy text used in
             laying out print, graphic or web designs.
           </p>
-
-          <button className="btn btn-success " >Read More</button>
-
-         
+          <button className="btn btn-success ">Read More</button>
         </div>
       </div>
     );
