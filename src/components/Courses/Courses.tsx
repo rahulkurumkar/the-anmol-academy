@@ -1,10 +1,14 @@
 import * as React from "react";
-export default class Courses extends React.Component {
+
+interface ICoursesProps {
+  course?: string;
+}
+export default class Courses extends React.Component<ICoursesProps> {
   public render() {
     return (
       <div>
         <div className="upsc">
-          <h3>UPSC</h3>
+          <h3>{this.props.course}</h3>
           <p className="courseContent">
             Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
             in laying out print, graphic or web designsis dummy text used in

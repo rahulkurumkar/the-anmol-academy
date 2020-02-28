@@ -1,0 +1,51 @@
+/*.courses {
+  display: inline-flex;
+  text-align: center;
+  margin: 10px;
+}*/
+.courseContent {
+  text-align: justify;
+}
+
+.courseName {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 5px solid #f3f3f3;
+  text-align: center;
+}
+
+.ourCourses {
+  padding: 15px;
+}
+
+.titleDiv h2 {
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.admissionDiv {
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+.instructionTxt,
+.instructionBtn {
+  padding: 20px;
+  text-align: left;
+}
+
+.instructionDiv {
+  padding: 20px;
+}
+
+.videoDiv {
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+
+.courseDiv {
+  padding: 30px;
+}
