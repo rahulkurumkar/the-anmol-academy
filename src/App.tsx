@@ -11,6 +11,10 @@ const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 export const App: React.FunctionComponent = () => {
   return (
     <>
+<<<<<<< Updated upstream
+=======
+      {" "}
+>>>>>>> Stashed changes
       <BrowserRouter>
         <Header label="Header">
           <div>Rahul</div>
