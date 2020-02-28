@@ -1,10 +1,7 @@
 import React from "react";
 
-interface ICourseProps {
-  
-}
 
-export default class UPSC extends React.Component<ICourseProps> {
+export default class Upsc extends React.Component {
   public render() {
     return (
       <div>

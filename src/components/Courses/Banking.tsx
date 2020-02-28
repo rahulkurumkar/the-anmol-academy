@@ -1,10 +1,7 @@
 import React from "react";
 
-interface ICourseProps {
-  
-}
 
-export default class BANKING extends React.Component<ICourseProps> {
+export default class Banking extends React.Component {
   public render() {
     return (
       <div>

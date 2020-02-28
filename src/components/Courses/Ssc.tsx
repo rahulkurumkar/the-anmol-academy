@@ -1,8 +1,7 @@
 import React from "react";
 
-interface ICourseProps {}
 
-export default class SSC extends React.Component<ICourseProps> {
+export default class Ssc extends React.Component {
   public render() {
     return (
       <div>

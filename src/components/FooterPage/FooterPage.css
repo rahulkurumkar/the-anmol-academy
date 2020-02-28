@@ -1,0 +1,45 @@
+.footerContainer {
+  background-color: #ffb84d;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.aboutUs {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fQuote {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.fimg {
+  width: 95px;
+  height: 85px;
+  margin: auto 0;
+}
+
+.contactUs {
+  padding-left: 160px;
+  border-left: solid black 1px;
+  height: 130px;
+  border-right: solid black 1px;
+}
+
+.footerLine {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  font-size: 13px;
+  color: white;
+  padding: 10px;
+}
+
+.quickLinks {
+  text-align: left;
+  padding-left: 200px;
+}

@@ -1,10 +1,10 @@
 import * as React from "react";
 
-interface ICourseProps {
+interface ICoursesProps {
   course?: string;
 }
 
-export default class Courses extends React.Component<ICourseProps> {
+export default class Courses extends React.Component<ICoursesProps> {
   public render() {
     return (
       <div>
@@ -15,10 +15,7 @@ export default class Courses extends React.Component<ICourseProps> {
             in laying out print, graphic or web designsis dummy text used in
             laying out print, graphic or web designs.
           </p>
-
-          <button className="btn btn-success " >Read More</button>
-
-         
+          <button className="btn btn-success ">Read More</button>
         </div>
       </div>
     );
