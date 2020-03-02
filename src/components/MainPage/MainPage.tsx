@@ -1,11 +1,6 @@
 import * as React from "react";
 import NavBar from "../NavBar/NavBar";
-<<<<<<< Updated upstream
 import Courses from "../Courses/Courses";
-=======
-import Courses from "../Cources/Courses";
-//import { Button } from "react-bootstrap";
->>>>>>> Stashed changes
 
 export interface IMainPageProps {
   course?: string;
@@ -54,6 +49,7 @@ export default class MainPage extends React.Component<IMainPageProps> {
             </div>
           </div>
         </div>
+        
       </div>
     );
   }
