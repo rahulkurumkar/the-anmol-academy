@@ -1,0 +1,5 @@
+.stickyDiv {
+  width: 100%;
+  top: 0px !important;
+  z-index: 1;
+}

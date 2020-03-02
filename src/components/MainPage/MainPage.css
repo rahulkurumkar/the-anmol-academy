@@ -22,8 +22,11 @@
 
 .titleDiv h2 {
   text-decoration: underline;
-  text-align: center;
   padding: 10px 0;
+}
+
+.titleDiv {
+  text-align: center;
 }
 
 .admissionDiv {

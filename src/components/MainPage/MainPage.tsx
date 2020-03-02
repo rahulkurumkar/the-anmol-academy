@@ -1,9 +1,11 @@
 import * as React from "react";
-import NavBar from "../NavBar/NavBar";
+//import NavBar from "../NavBar/NavBar";
 import Courses from "../Courses/Courses";
 import "./MainPage.css";
 import SliderImg from "../Slider/SliderImg";
 import Video from "../Video/Video";
+import Sticky from "../Navigation/Sticky";
+import About from "../About/About";
 //import { Button } from "react-bootstrap";
 
 export interface IMainPageProps {
@@ -16,11 +18,14 @@ export default class MainPage extends React.Component<IMainPageProps> {
       <div>
         <div>
           <div>
-            <NavBar />
+            <Sticky />
           </div>
           <div>
             <SliderImg />
           </div>
+<div>
+  <About/>
+</div>
           <div>
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -45,8 +50,10 @@ export default class MainPage extends React.Component<IMainPageProps> {
             </div>
             <div className="videoDiv">
               <div className="row">
-                <div className="titleDiv">
-                  <h2>Anmol Academy</h2>
+                <div className="col-md-12">
+                  <div className="titleDiv">
+                    <h2>Anmol Academy</h2>
+                  </div>
                 </div>
               </div>
               <div className="row">
@@ -66,6 +73,7 @@ export default class MainPage extends React.Component<IMainPageProps> {
                     but also the leap into electronic typesetting, remaining
                     essentially unchanged.
                   </p>
+                  <button className="btn btn-success ">Read More</button>
                 </div>
               </div>
             </div>
