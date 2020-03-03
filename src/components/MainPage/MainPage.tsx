@@ -1,10 +1,10 @@
 import * as React from "react";
-//import FooterPage from "../FooterPage/FooterPage";
 import NavBar from "../NavBar/NavBar";
-import Courses from "./Courses";
-//import { Button } from "react-bootstrap";
+import Courses from "../Courses/Courses";
 
-export interface IMainPageProps {}
+export interface IMainPageProps {
+  course?: string;
+}
 
 export default class MainPage extends React.Component<IMainPageProps> {
   public render() {
@@ -34,20 +34,21 @@ export default class MainPage extends React.Component<IMainPageProps> {
           </div>
           <div className="courses">
             <div className="courseName">
-              <Courses />
+              <Courses course="MPSC" />
+            </div>
+
+            <div className="courseName">
+              <Courses course="UPSC" />
             </div>
             <div className="courseName">
-              <Courses />
+              <Courses course="BANKING" />
             </div>
             <div className="courseName">
-              <Courses />
-            </div>
-            <div className="courseName">
-              <Courses />
+              <Courses course="SSC" />
             </div>
           </div>
         </div>
-      </div>
+          </div>
     );
   }
 }
