@@ -15,7 +15,7 @@ class Slider extends Component<ISliderProps> {
           <Carousel.Item>
             {names.map(image => (
               <img
-                className="d-block w-100"
+                className="d-block w-100 img-responsive"
                 src={String(require(`./images/${image}.jpg`))}
               />
             ))}

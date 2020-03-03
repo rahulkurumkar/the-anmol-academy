@@ -4,8 +4,8 @@ import Courses from "../Courses/Courses";
 import "./MainPage.css";
 import SliderImg from "../Slider/SliderImg";
 import Video from "../Video/Video";
-import Sticky from "../Navigation/Sticky";
-import About from "../About/About";
+import Sticky from "../NavBar/Sticky";
+import AboutUs from "../About/AboutUs";
 //import { Button } from "react-bootstrap";
 
 export interface IMainPageProps {
@@ -23,9 +23,9 @@ export default class MainPage extends React.Component<IMainPageProps> {
           <div>
             <SliderImg />
           </div>
-<div>
-  <About/>
-</div>
+          <div>
+            <AboutUs />
+          </div>
           <div>
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
