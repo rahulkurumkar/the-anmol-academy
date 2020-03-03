@@ -1,11 +1,9 @@
-import React from "react";
-
-interface ICourseProps {
+import  React from "react";
+interface ICoursesProps {
   course?: string;
 }
-
-export default class Courses extends React.Component<ICourseProps> {
-  public render() {
+export default class Courses extends React.Component<ICoursesProps> {
+ public render() {
     return (
       <div>
         <div className="upsc">

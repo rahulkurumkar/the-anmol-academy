@@ -1,7 +1,6 @@
 .footerContainer {
   background-color: #ffb84d;
   width: 100%;
-  height: 200px;
   text-align: center;
   padding-top: 20px;
 }
@@ -40,6 +39,6 @@
 }
 
 .quickLinks {
-  text-align: left;
-  padding-left: 200px;
+  text-align: justify;
+  padding-left: 115px;
 }

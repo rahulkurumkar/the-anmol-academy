@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  padding: 40px;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  height: 100vh;
+  padding: 15px;
+  background-color: #f2f2f2;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+.content {
+  padding: 10px 20px;
+}
+
+.titleDiv h2 {
+  text-decoration: underline;
+  padding: 10px 0 5px 0;
+}
+
+.titleDiv {
+  text-align: center;
+}
+
+.aboutImg {
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid navy;
+  border-radius: 30px;
+  font-size: 30px;
+  color: navy;
+  height: 60px;
+  width: 60px;
+}
+
+.aboutDiv {
+  padding: 30px;
+}
+
+.aboutDescr {
+  text-align: justify;
+}
+
+.about {
+  text-align: center;
+  padding: 8px 0;
+}
