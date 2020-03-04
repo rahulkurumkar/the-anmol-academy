@@ -1,6 +1,5 @@
 .footerContainer {
   background-color: #ffb84d;
-  width: 100%;
   text-align: center;
   padding-top: 20px;
 }
@@ -31,7 +30,6 @@
 
 .footerLine {
   background-color: black;
-  width: 100%;
   height: 40px;
   font-size: 13px;
   color: white;
@@ -40,5 +38,5 @@
 
 .quickLinks {
   text-align: justify;
-  padding-left: 115px;
+  padding-left: 170px;
 }

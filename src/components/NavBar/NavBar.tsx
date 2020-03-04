@@ -8,21 +8,16 @@ export default class NavBar extends Component<Props, State> {
   state = {};
   render() {
     return (
-      <Nav fill variant="tabs" defaultActiveKey="/home">
-        <Nav.Item>
-          <Nav.Link href="http://localhost:3000/">Home</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="http://localhost:3000/about">About Us</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">Link</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="disabled" disabled>
-            Disabled
-          </Nav.Link>
-        </Nav.Item>
+      <Nav>
+        {[
+          { item: "Home", link: "/" },
+          { item: "About Us", link: "/about" },
+          { item: "Link", link: "/link" }
+        ].map(obj => (
+          <Nav.Item>
+            <Nav.Link href="obj.link">{obj.item}</Nav.Link>
+          </Nav.Item>
+        ))}
       </Nav>
     );
   }

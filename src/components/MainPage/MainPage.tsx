@@ -1,5 +1,5 @@
 import * as React from "react";
-import Courses from "../Courses/Courses";
+import Courses from "../Courses/Course";
 import "./MainPage.css";
 import Slider from "../Slider/Slider";
 import Video from "../Video/Video";
