@@ -1,16 +1,10 @@
 import * as React from "react";
-
-//import NavBar from "../NavBar/NavBar";
-//import Courses from "../Courses/Courses";
-//import NavBar from "../NavBar/NavBar";
-import Courses from "../Courses/Courses";
+import Courses from "../Courses/Course";
 import "./MainPage.css";
 import SliderImg from "../Slider/SliderImg";
 import Video from "../Video/Video";
 import Sticky from "../NavBar/Sticky";
 import AboutUs from "../About/AboutUs";
-//import { Button } from "react-bootstrap";
-
 
 export interface IMainPageProps {
   course?: string;
@@ -99,7 +93,7 @@ export default class MainPage extends React.Component<IMainPageProps> {
                   </div>
                 ))}
               </div>
-            </div>
+                        </div>
           </div>
         </div>
       </div>

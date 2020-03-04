@@ -5,22 +5,19 @@ import Header from "./components/Header/Header";
 import MainPage from "./components/MainPage/MainPage";
 import FooterPage from "./components/FooterPage/FooterPage";
 import "./App.css";
-//import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
+import Courses from "./components/Courses/Courses";
 import Testimonials from "./components/Testimonials/Testimonials";
-
-const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 
 export const App: React.FunctionComponent = () => {
   return (
-    //<BrowserRouter>
-    <div>
-      <Header label="Header">
-        <div>Rahul</div>
-      </Header>
-      <MainPage />
-      <Testimonials />
-      <FooterPage />
-    </div>
-    //</BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Header />
+        <MainPage />
+        <Testimonials />
+        <FooterPage />
+      </BrowserRouter>
+    </>
   );
 };

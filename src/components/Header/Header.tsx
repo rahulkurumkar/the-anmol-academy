@@ -8,11 +8,7 @@ import "./Header.css";
 
 const LogoImg = require("../Logo/IMG_8847.JPG");
 
-interface IHeaderProps {
-  label: string;
-}
-
-const Header: React.FC<IHeaderProps> = ({ label, children }) => (
+const Header: React.FC = () => (
   <div className="headerContainer">
     <div className="row ">
       <div className="col-xs-4 col-sm-4 col-md-3 col-lg-3">
@@ -29,23 +25,19 @@ const Header: React.FC<IHeaderProps> = ({ label, children }) => (
         </div>
       </div>
       <div className="divicons col-xs-4 col-sm-4 col-md-3 col-lg-3">
-        <div className="">
-          <div>
-            <a href="#">
-              <FaFacebookF />
+        <div>
+          {[
+            { iconName: FaFacebookF, link: "#" },
+            { iconName: FaGoogle, link: "#" },
+            { iconName: FaWhatsapp, link: "#" },
+            { iconName: MdCall, link: "#" }
+          ].map(obj => (
+            <a href="obj.link">
+              <obj.iconName />
             </a>
-            <a href="#">
-              <FaGoogle />
-            </a>
-            <a href="#">
-              <FaWhatsapp />
-            </a>
-            <a href="#">
-              <MdCall />
-            </a>
-          </div>
-          <button className="btn btn-danger">Emergency</button>
+          ))}
         </div>
+        <button className="btn btn-danger">Emergency</button>
       </div>
     </div>
   </div>

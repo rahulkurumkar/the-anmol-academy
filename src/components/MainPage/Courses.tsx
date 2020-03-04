@@ -1,18 +1,32 @@
 import * as React from "react";
+import { Link, Route, Switch } from "react-router-dom";
+import Course from "../Courses/Courses";
+
 export default class Courses extends React.Component {
   public render() {
     return (
-      <div>
-        <div className="upsc">
-          <h3>UPSC</h3>
-          <p className="courseContent">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
-            in laying out print, graphic or web designsis dummy text used in
-            laying out print, graphic or web designs.
-          </p>
-          <button className="btn btn-success ">Read More</button>
-        </div>
-      </div>
+      <>
+        <h2>All Courses are available here...</h2>
+        <nav className="navbar bg-light">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 1
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 2
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 3
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </>
     );
   }
 }
