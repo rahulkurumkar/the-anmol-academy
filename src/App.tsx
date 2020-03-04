@@ -8,8 +8,6 @@ import "./App.css";
 //import { BrowserRouter } from "react-router-dom";
 import Testimonials from "./components/Testimonials/Testimonials";
 
-const boldStyle = { root: { fontWeight: FontWeights.semibold } };
-
 export const App: React.FunctionComponent = () => {
   return (
     //<BrowserRouter>

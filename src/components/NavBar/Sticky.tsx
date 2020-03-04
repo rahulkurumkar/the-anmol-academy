@@ -40,7 +40,7 @@ class Sticky extends Component<Props, State> {
           width: "100%",
           top: 0,
           background: "#00004d",
-          zIndex: 1,
+          zIndex: 100,
           position: this.state.scrollingLock ? "fixed" : "relative"
         }}
       >

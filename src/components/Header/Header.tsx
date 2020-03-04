@@ -28,8 +28,8 @@ const Header: React.FC<IHeaderProps> = ({ label, children }) => (
           </p>
         </div>
       </div>
-      <div className="divicons col-xs-4 col-sm-4 col-md-3 col-lg-3">
-        <div className="">
+      <div className=" col-xs-4 col-sm-4 col-md-3 col-lg-3">
+        <div className="divicons">
           <div>
             <a href="#">
               <FaFacebookF />

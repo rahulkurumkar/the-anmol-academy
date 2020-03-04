@@ -1,27 +1,35 @@
 import React, { Component } from "react";
-//import imgSlider from "./images/banner1.png";
 import Carousel from "react-bootstrap/Carousel";
-//import SliderImg from "./SliderImg";
 
 export interface ISliderProps {}
 
 class Slider extends Component<ISliderProps> {
-  render() {
-    const names = ["banner3", "banner2"];
-
+  public render() {
     return (
-      <div>
-        <Carousel>
+      <>
+      <Carousel>
+        {[
+          {
+            item: require("./images/banner1.png"),
+            h3Text: "First slide label",
+            pText: "Nulla vitae elit libero, a pharetra augue mollis interdum."
+          },
+          {
+            item: require("./images/banner1.png"),
+            h3Text: "Second slide label",
+            pText: "Nulla vitae elit libero, a pharetra augue mollis interdum."
+          }
+        ].map(obj => (
           <Carousel.Item>
-            {names.map(image => (
-              <img
-                className="d-block w-100 img-responsive"
-                src={String(require(`./images/${image}.jpg`))}
-              />
-            ))}
+            <img className="d-block w-100" src={String(obj.item)} />
+            <Carousel.Caption>
+              <h3>{obj.h3Text}</h3>
+              <p>{obj.pText}</p>
+            </Carousel.Caption>
           </Carousel.Item>
-        </Carousel>
-      </div>
+        ))}
+      </Carousel>
+      </>
     );
   }
 }
