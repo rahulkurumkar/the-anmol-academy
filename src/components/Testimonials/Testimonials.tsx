@@ -28,11 +28,18 @@ export default class Testimonials extends React.Component {
           ].map(obj => (
             <Carousel.Item>
               <div>
-                <img src={String(obj.bgImg)} className="img-responsive" />
+                <img
+                  src={String(obj.bgImg)}
+                  className="img-responsive"
+                  alt="backgroung"
+                />
                 <Carousel.Caption>
                   <div className="col-md-3 offset-md-3">
                     <div className="testimonialImg">
-                      <img src={String(obj.studentImg)} alt="3"></img>
+                      <img
+                        src={String(obj.studentImg)}
+                        alt="Students"
+                      ></img>
                       <div className="testimonialText">
                         <h4>{obj.h4Text} </h4>
                         <span>{obj.year}</span>

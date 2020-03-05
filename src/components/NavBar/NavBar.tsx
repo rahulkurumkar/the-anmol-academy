@@ -11,11 +11,12 @@ export default class NavBar extends Component<Props, State> {
       <Nav>
         {[
           { item: "Home", link: "/" },
-          { item: "About Us", link: "/about" },
-          { item: "Link", link: "/link" }
+          { item: "About Us", link: "/aboutus" },
+          { item: "Contact", link: "/Contact" },
+          { item: "Addmissions", link: "/Addmissions" }
         ].map(obj => (
           <Nav.Item>
-            <Nav.Link href="obj.link">{obj.item}</Nav.Link>
+            <Nav.Link href={obj.link}>{obj.item}</Nav.Link>
           </Nav.Item>
         ))}
       </Nav>

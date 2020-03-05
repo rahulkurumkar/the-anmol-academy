@@ -21,7 +21,6 @@ const Header: React.FC = () => (
           </p>
         </div>
       </div>
-
       <div className="divicons col-xs-4 col-sm-4 col-md-3 col-lg-3">
         <div>
           {[
