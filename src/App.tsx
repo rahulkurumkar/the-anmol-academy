@@ -7,10 +7,12 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Courses from "./components/Courses/Courses";
 import Testimonials from "./components/Testimonials/Testimonials";
 import AboutUs from "./components/About/AboutUs";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Ssc from "./components/Courses/Ssc";
 import Mpsc from "./components/Courses/Mpsc";
 import Upsc from "./components/Courses/Upsc";
 import Banking from "./components/Courses/Banking";
+
 
 export const App: React.FunctionComponent = () => {
   return (
