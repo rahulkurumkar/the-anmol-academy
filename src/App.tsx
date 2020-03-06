@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Courses from "./components/Courses/Courses";
 import Testimonials from "./components/Testimonials/Testimonials";
 import AboutUs from "./components/About/AboutUs";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const App: React.FunctionComponent = () => {
   return (

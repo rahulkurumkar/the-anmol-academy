@@ -5,6 +5,7 @@ import Slider from "../Slider/Slider";
 import Video from "../Video/Video";
 import Sticky from "../NavBar/Sticky";
 import AboutUs from "../About/AboutUs";
+import News from "../News/News";
 
 export interface IMainPageProps {
   course?: string;
@@ -89,6 +90,9 @@ export default class MainPage extends React.Component<IMainPageProps> {
                 </div>
               ))}
             </div>
+          </div>
+          <div>
+            <News />
           </div>
         </div>
       </>
