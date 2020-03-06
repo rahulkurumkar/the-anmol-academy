@@ -1,5 +1,5 @@
 import * as React from "react";
-import Courses from "../Courses/Course";
+import Courses from "../Courses/Courses";
 import "./MainPage.css";
 import Slider from "../Slider/Slider";
 import Video from "../Video/Video";
@@ -15,9 +15,6 @@ export default class MainPage extends React.Component<IMainPageProps> {
   public render() {
     return (
       <>
-        <div>
-          <Sticky />
-        </div>
         <div>
           <Slider />
         </div>
@@ -76,19 +73,8 @@ export default class MainPage extends React.Component<IMainPageProps> {
           <div className="courseDiv">
             <div className="row">
               <div className="col-md-12">
-                <div className="titleDiv">
-                  <h2>Our Courses</h2>
-                </div>
+                <Courses />
               </div>
-            </div>
-            <div className="row">
-              {["MPSC", "UPSC", "BANKING", "SSC"].map(course => (
-                <div className=" col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                  <div className="courseName">
-                    <Courses course={course} />
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
           <div>

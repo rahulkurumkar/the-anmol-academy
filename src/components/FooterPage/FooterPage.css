@@ -4,6 +4,10 @@
   padding-top: 20px;
 }
 
+.footerContainer:hover {
+  opacity: 0.9;
+}
+
 .aboutUs {
   text-align: center;
   margin-top: 10px;

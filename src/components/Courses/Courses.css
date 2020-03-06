@@ -1,0 +1,7 @@
+.coursesHover:hover {
+  opacity: 0.6;
+}
+
+.coursesHover {
+  vertical-align: middle;
+}
