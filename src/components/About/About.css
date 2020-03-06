@@ -38,6 +38,12 @@
   color: navy;
   height: 60px;
   width: 60px;
+  transition: height 0.5s, width 0.5s, font-size 0.5s;
+}
+.aboutImg:hover {
+  height: 64px;
+  width: 64px;
+  font-size: 34px;
 }
 
 .aboutDiv {
