@@ -4,8 +4,6 @@
 }
 
 .testimonialImg img {
-  height: 110px;
-  width: 120px;
   margin: 0 auto;
   border-radius: 50px;
 }
@@ -19,4 +17,10 @@
   color: black;
   font-size: 20px;
   font-weight: bold;
+  transition: font-size 0.5s, color 0.5s;
+}
+
+.testimonialText:hover {
+  font-size: 23px;
+  color: white;
 }

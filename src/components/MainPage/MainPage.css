@@ -14,6 +14,13 @@
   padding: 20px;
   border: 5px solid #f3f3f3;
   text-align: center;
+  transition: height 1s, width 1s, border 1s;
+}
+
+.courseName:hover {
+  height: 310px;
+  width: 310px;
+  border: 7px solid #ece6e6;
 }
 
 .ourCourses {
