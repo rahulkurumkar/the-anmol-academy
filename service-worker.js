@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/the-anmol-academy/precache-manifest.c330b1cc8c3a8201660a994631440535.js"
+  "/the-anmol-academy/precache-manifest.4b044e1d2ffd7f281fd06d204f767381.js"
 );
 
 self.addEventListener('message', (event) => {

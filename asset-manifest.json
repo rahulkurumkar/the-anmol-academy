@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/the-anmol-academy/static/css/main.5280ae0d.chunk.css",
-    "main.js": "/the-anmol-academy/static/js/main.3585ec48.chunk.js",
-    "main.js.map": "/the-anmol-academy/static/js/main.3585ec48.chunk.js.map",
+    "main.js": "/the-anmol-academy/static/js/main.e02f71d1.chunk.js",
+    "main.js.map": "/the-anmol-academy/static/js/main.e02f71d1.chunk.js.map",
     "runtime-main.js": "/the-anmol-academy/static/js/runtime-main.428650c3.js",
     "runtime-main.js.map": "/the-anmol-academy/static/js/runtime-main.428650c3.js.map",
     "static/css/2.1d7b93f6.chunk.css": "/the-anmol-academy/static/css/2.1d7b93f6.chunk.css",
     "static/js/2.8935fa2a.chunk.js": "/the-anmol-academy/static/js/2.8935fa2a.chunk.js",
     "static/js/2.8935fa2a.chunk.js.map": "/the-anmol-academy/static/js/2.8935fa2a.chunk.js.map",
     "index.html": "/the-anmol-academy/index.html",
-    "precache-manifest.c330b1cc8c3a8201660a994631440535.js": "/the-anmol-academy/precache-manifest.c330b1cc8c3a8201660a994631440535.js",
+    "precache-manifest.4b044e1d2ffd7f281fd06d204f767381.js": "/the-anmol-academy/precache-manifest.4b044e1d2ffd7f281fd06d204f767381.js",
     "service-worker.js": "/the-anmol-academy/service-worker.js",
     "static/css/2.1d7b93f6.chunk.css.map": "/the-anmol-academy/static/css/2.1d7b93f6.chunk.css.map",
     "static/css/main.5280ae0d.chunk.css.map": "/the-anmol-academy/static/css/main.5280ae0d.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.1d7b93f6.chunk.css",
     "static/js/2.8935fa2a.chunk.js",
     "static/css/main.5280ae0d.chunk.css",
-    "static/js/main.3585ec48.chunk.js"
+    "static/js/main.e02f71d1.chunk.js"
   ]
 }
