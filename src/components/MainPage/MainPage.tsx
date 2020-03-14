@@ -1,10 +1,9 @@
-import * as React from "react";
-import Courses from "../Courses/Courses";
-import "./MainPage.css";
-import Slider from "../Slider/Slider";
-import Video from "../Video/Video";
-import Sticky from "../NavBar/Sticky";
-import AboutUs from "../About/AboutUs";
+import * as React from 'react';
+import Courses from '../Courses/Courses';
+import './MainPage.css';
+import Slider from '../Slider/Slider';
+import Video from '../Video/Video';
+import AboutUs from '../About/AboutUs';
 
 export interface IMainPageProps {
   course?: string;
